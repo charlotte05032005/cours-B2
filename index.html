@@ -1,14 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Centre de soin pour animaux sauvages - L'Hirondelle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicone.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <!-- Using a CDN for FontAwesome free icons since specific kit code is unknown -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <h1>test 3s</h1>
+    <header>
+        <div class="logo-container">
+            <!-- Placeholder for Logo -->
+            <div class="logo-placeholder">
+                <img src="images/logo.png" alt="Logo L'Hirondelle" style="height: 80px; width: auto;">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="jai-trouve-un-animal.html">J'ai trouvé un animal</a></li>
+                <li><a href="le-centre.html">Le centre</a></li>
+                <li><a href="nos-actions.html">Nos actions</a></li>
+                <li><a href="nous-aider.html">Nous aider</a></li>
+            </ul>
+        </nav>
+        <a href="faire-un-don.html" class="donate-btn">Faire un don</a>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Bienvenue sur le site de l'HIRONDELLE</h1>
+                <p>Centre de soin pour animaux sauvages</p>
+                <div class="scroll-down">
+                    <a href="#about" style="color: white; text-decoration: none;">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Rescue Section -->
+        <section id="about">
+            <div class="about-text">
+                <p>L'Hirondelle recueille chaque année près de 7 000 oiseaux et mammifères sauvages en détresse dans le
+                    but d'être soignés puis relâchés dans la nature. Notre centre de soins, qui est l'un des plus grands
+                    de France, intervient sur les départements du Rhône, de la Loire, de la Drôme et de l'Ardèche.</p>
+            </div>
+
+            <div class="visuals-container">
+                <img src="images/Oiseau.png" alt="Oiseau" class="animal-img bird">
+
+                <div class="cta-container">
+                    <div class="cta-bubble">
+                        <span>SI VOUS AVEZ TROUVÉ UN ANIMAL</span>
+                        <strong>CLIQUEZ ICI</strong>
+                    </div>
+                </div>
+
+                <img src="images/Lapin.png" alt="Lapin" class="animal-img rabbit">
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news">
+            <h2>Actualités</h2>
+            <div class="news-grid">
+                <!-- Repeating available images to fill grid as per plan -->
+
+                <!-- Item 1 -->
+                <a href="la-circulaire.html" class="polaroid rotate-left"
+                    style="text-decoration: none; display: block; color: inherit;">
+                    <div class="tape"></div>
+                    <div class="img-wrapper">
+                        <img src="images/reponses aux jeux de la circulaire.png" alt="Questionnaire">
+                    </div>
+                    <p class="caption">Répondez au questionnaire !</p>
+                </a>
+
+                <!-- Item 2 -->
+                <div class="polaroid rotate-right">
+                    <div class="tape"></div>
+                    <div class="img-wrapper">
+                        <img src="images/IGNOBLE !.png" alt="Ignoble">
+                    </div>
+                    <p class="caption">IGNOBLE !</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="polaroid rotate-left">
+                    <div class="tape"></div>
+                    <div class="img-wrapper">
+                        <img src="images/Enfin des bonnes nouvelles !.png" alt="Bonnes nouvelles">
+                    </div>
+                    <p class="caption">Enfin des bonnes nouvelles !</p>
+                </div>
+
+                <!-- Item 4 (Duplicate for styling) -->
+                <div class="polaroid rotate-right">
+                    <div class="tape"></div>
+                    <div class="img-wrapper">
+                        <img src="images/Une réouverture dans la douleur.png" alt="Réouverture">
+                    </div>
+                    <p class="caption">Une réouverture... dans la douleur</p>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="polaroid rotate-left">
+                    <div class="tape"></div>
+                    <div class="img-wrapper">
+                        <img src="images/Nous avons besoin de vous !.png" alt="Besoin de vous">
+                    </div>
+                    <p class="caption">Nous avons besoin de vous !</p>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="polaroid rotate-right">
+                    <div class="tape"></div>
+                    <div class="img-wrapper">
+                        <img src="images/La situation a l'Hirondelle .png" alt="Situation">
+                    </div>
+                    <p class="caption">La situation à l'Hirondelle</p>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="polaroid rotate-left">
+                    <div class="tape"></div>
+                    <div class="img-wrapper">
+                        <img src="images/Moment très difficile a l'Hirondelle .png" alt="Moment difficile">
+                    </div>
+                    <p class="caption">Moment très difficile à l'Hirondelle</p>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="polaroid rotate-right">
+                    <div class="tape"></div>
+                    <div class="img-wrapper">
+                        <img src="images/Mais quel début d'année.png" alt="Début d'année">
+                    </div>
+                    <p class="caption">Mais quel début d'année !</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sponsors Section -->
+        <section id="sponsors">
+            <h3>Sponsors</h3>
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <!-- Duplicate standard set for seamless loop -->
+                    <img src="images/sponsor 1.png" alt="Sponsor">
+                    <img src="images/sponsor 2.png" alt="Sponsor">
+                    <img src="images/sponsor 3.png" alt="Sponsor">
+                    <img src="images/sponsor 4.png" alt="Sponsor">
+                    <img src="images/sponsor 5.png" alt="Sponsor">
+                    <img src="images/sponsor 6.png" alt="Sponsor">
+                    <img src="images/sponsor 7.png" alt="Sponsor">
+                    <img src="images/sponsor 8.png" alt="Sponsor">
+                    <img src="images/sponsor 9.png" alt="Sponsor">
+                    <img src="images/sponsor 10.png" alt="Sponsor">
+                    <img src="images/sponsor 11.png" alt="Sponsor">
+                    <img src="images/sponsor 12.png" alt="Sponsor">
+                    <img src="images/sponsor 13.png" alt="Sponsor">
+                    <img src="images/sponsor 14.png" alt="Sponsor">
+                    <!-- Second set -->
+                    <img src="images/sponsor 1.png" alt="Sponsor">
+                    <img src="images/sponsor 2.png" alt="Sponsor">
+                    <img src="images/sponsor 3.png" alt="Sponsor">
+                    <img src="images/sponsor 4.png" alt="Sponsor">
+                    <img src="images/sponsor 5.png" alt="Sponsor">
+                    <img src="images/sponsor 6.png" alt="Sponsor">
+                    <img src="images/sponsor 7.png" alt="Sponsor">
+                    <img src="images/sponsor 8.png" alt="Sponsor">
+                    <img src="images/sponsor 9.png" alt="Sponsor">
+                    <img src="images/sponsor 10.png" alt="Sponsor">
+                    <img src="images/sponsor 11.png" alt="Sponsor">
+                    <img src="images/sponsor 12.png" alt="Sponsor">
+                    <img src="images/sponsor 13.png" alt="Sponsor">
+                    <img src="images/sponsor 14.png" alt="Sponsor">
+                </div>
+            </div>
+            <p class="membership-text">L'Hirondelle est membre du Réseau des Centres de Soins de la Faune Sauvage.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo footer.png" alt="Logo L'Hirondelle" style="height: 60px; width: auto;">
+            </div>
+            <div class="footer-links">
+                <a href="jai-trouve-un-animal.html">J'ai trouvé un animal</a>
+                <a href="le-centre.html">Le centre</a>
+                <a href="nos-actions.html">Nos actions</a>
+                <a href="nous-aider.html">Nous aider</a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <button class="newsletter-btn">Je souhaite recevoir l'actualité de Hirondelle</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
